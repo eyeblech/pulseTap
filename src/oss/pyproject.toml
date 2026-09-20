@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pulsetap"
+version = "1.0.0"
+description = "Open-source auto keyboard presser with a desktop window and CLI."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [{ name = "PulseTap contributors" }]
+keywords = ["keyboard", "automation", "hotkey", "accessibility"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Environment :: Win32 (MS Windows)",
+  "Environment :: MacOS X",
+  "Environment :: X11 Applications",
+  "Topic :: Utilities",
+]
+dependencies = ["pynput>=1.7.6"]
+
+[project.scripts]
+pulsetap = "pulsetap:main"
+
+[project.urls]
+Homepage = "https://github.com/"

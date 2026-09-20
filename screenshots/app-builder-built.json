@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "PulseTap",
+      "hasCanvas": false,
+      "bodyTextLen": 3195,
+      "bodyTextHash": "63a8bb314a9a0db674510ae1468771e65cfaccffa30922ca0d4a203734ec2585",
+      "bodyTextPrefix": "PulseTap MIT Open-source auto keyboard presser STATUS idle PRESS",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "PulseTap",
+      "hasCanvas": false,
+      "bodyTextLen": 3137,
+      "bodyTextHash": "63d0fbb5213309a6ef1ea7eeb6e70aea43e2fb170d365b46eeacb2942eab7833",
+      "bodyTextPrefix": "PulseTap MIT Open-source auto keyboard presser STATUS idle PRESS",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
