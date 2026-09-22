@@ -2,13 +2,12 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-8fb9a8.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-3776AB.svg)](https://www.python.org/downloads/)
-[![GitHub license](https://img.shields.io/github/license/eyeblech/pulseTap)](LICENSE)
 
 Open-source **auto keyboard presser** for Windows, macOS, and Linux.
 
 PulseTap repeats a key — or a short sequence of keys — on a timer you choose. Use it for accessibility, UI testing, long forms, or keeping a window awake. The window stays visible. **F8** always starts and stops.
 
-**This project is MIT licensed.** You may use, copy, modify, merge, publish, distribute, sublicense, and sell it. The only requirement is that you keep the MIT copyright notice. See [LICENSE](LICENSE).
+**This project is MIT licensed.** You may use, copy, modify, merge, publish, distribute, sublicense, and sell it. Keep the MIT copyright notice. See [LICENSE](LICENSE).
 
 ## Features
 
@@ -33,8 +32,6 @@ Terminal only:
 python pulsetap.py --cli
 ```
 
-The Python app lives at [`src/oss/pulsetap.py`](src/oss/pulsetap.py) in this repo. Copy it to the root as `pulsetap.py`, or run it from that folder.
-
 ## Use
 
 1. **Bind key** — press the key you want repeated, or pick a preset.
@@ -45,10 +42,10 @@ The Python app lives at [`src/oss/pulsetap.py`](src/oss/pulsetap.py) in this rep
 ### Examples
 
 ```bash
-python src/oss/pulsetap.py --sequence space --interval 1000
-python src/oss/pulsetap.py --sequence w a s d --interval 400 --hold 180
-python src/oss/pulsetap.py --config src/oss/config.example.json --cli
-python src/oss/pulsetap.py --list-keys
+python pulsetap.py --sequence space --interval 1000
+python pulsetap.py --sequence w a s d --interval 400 --hold 180
+python pulsetap.py --config config.example.json --cli
+python pulsetap.py --list-keys
 ```
 
 | Flag | Meaning |
@@ -61,7 +58,7 @@ python src/oss/pulsetap.py --list-keys
 | `--countdown` | Seconds before the first press |
 | `--modifiers` | `ctrl` `shift` `alt` `cmd` |
 | `--hotkey` | Global toggle, default `<f8>` |
-| `--config` | JSON file (see `src/oss/config.example.json`) |
+| `--config` | JSON file (see `config.example.json`) |
 
 ## Permissions
 
@@ -73,6 +70,4 @@ python src/oss/pulsetap.py --list-keys
 
 [MIT](LICENSE). Copyright (c) 2026 PulseTap contributors.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
-
-The full text is in [LICENSE](LICENSE). Keep that file in every copy or substantial portion.
+Free and open source. Fork it, change it, ship it — just keep the license file.

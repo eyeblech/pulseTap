@@ -1,0 +1,10 @@
+{
+  "sequence": ["space"],
+  "interval_ms": 1000,
+  "hold_ms": 40,
+  "jitter_pct": 0,
+  "repeats": 0,
+  "countdown_s": 3,
+  "modifiers": [],
+  "hotkey": "<f8>"
+}
